@@ -140,7 +140,7 @@ window.onload = function() {
 elementoBtn.addEventListener('click', function ( ){
 
   if(elementoBtn.value == 'primeiro'){
-    elementoImgMinion.src = './assets/img/Carl.png';
+    elementoImgMinion.src = './assets/img/carl.png';
     elementoImgGru.src = './assets/img/GruFeliz3.png';
     elementoImgMargo.src = './assets/img/MargoFeliz.png';
     elementoImgEdith.src = './assets/img/EdithFeliz.png';
@@ -152,7 +152,7 @@ elementoBtn.addEventListener('click', function ( ){
    
 } else if(elementoBtn.value == 'segundo') { 
     elementoImgMinion.src = './assets/img/Wolverine.png';
-    elementoImgGru.src = './assets/img/gru3.png';
+    elementoImgGru.src = './assets/img/Gru3.png';
     elementoImgMargo.src = './assets/img/MargoIrritada.png';
     elementoImgEdith.src = './assets/img/Edith_irritada.png';
     elementoImgAgnes.src = './assets/img/AgnesEmburrada.png';
