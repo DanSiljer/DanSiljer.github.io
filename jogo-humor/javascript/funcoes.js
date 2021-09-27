@@ -140,7 +140,7 @@ window.onload = function() {
 elementoBtn.addEventListener('click', function ( ){
 
   if(elementoBtn.value == 'primeiro'){
-    elementoImgMinion.src = './assets/img/carl.png';
+    elementoImgMinion.src = './assets/img/minionF.png';
     elementoImgGru.src = './assets/img/GruFeliz3.png';
     elementoImgMargo.src = './assets/img/MargoFeliz.png';
     elementoImgEdith.src = './assets/img/EdithFeliz.png';
