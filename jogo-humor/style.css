@@ -1,0 +1,292 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Titan One', cursive; */
+    
+}
+
+body {
+    font-family: 'Titan One', cursive;
+    background-color: #dddd;
+    color: rgba(0, 0, 0, 1);
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+a{
+    /*Trocar cor dos links */
+        color: #193eb4;
+        text-decoration: none;
+    }
+    /*Undeline nos links quando passa o mouse */
+    a:hover{
+        text-decoration:underline ;
+    }
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #f7f8cb;
+}
+
+@media (min-width: 576px) and (min-width: 768px) {
+}
+nav#menu {
+    display: block;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 750px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between ;
+    background-color: #fbfbf8;
+    background-size: cover; /*Faz a imgem de fundo preencher todo o espaço em que ela está */
+    background-position: center; /* Centraliza a imagem de fundo */
+    width: 100%;
+    align-items: center;
+}
+
+
+header div#txt{
+    padding: 2rem;
+    color: #fbfb02;
+    font-size: 4rem;
+    text-shadow: .1rem .1rem .1rem #08080880;
+    margin-bottom: auto;
+    margin-left: center;
+    margin-top: auto;
+    text-align: center;
+    
+}
+div#interface {
+    width: 900px;
+    background-color: white;
+    margin: -20px auto 10px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+
+} 
+section#incones {
+    display: flex;
+    flex-direction: column;
+    background-color: #eede05;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    }
+
+#incones h2{
+    text-align: center;
+    font-size: 25pt;
+    justify-content: space-around;
+    color: #fbfbf8;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+
+section#infos div#txt{
+    padding: 5rem;
+    color: rgb(248, 232, 9);
+    text-align: center;
+
+}
+
+section#infos div#txt h2{
+    padding: 1rem;
+    font-size: 5rem;
+    font-weight: 400;
+    -webkit-text-stroke-width: 2px;
+    text-shadow: .2rem .2rem .2rem #0a0a0a80;
+}
+
+section#infos div#txt h3{
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-shadow: 10px solid #080808;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+section#infos div#txt h4{
+    text-align: center;
+    font-size: 30pt;
+    justify-content: space-around;
+    color: #fbfb02;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   
+
+}
+
+section#infos div#txt{
+    border: 5px solid #070707;
+    border: none;
+    color: rgb(253, 249, 6);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;  
+}
+
+#alterar{
+    background-color: #07c8f8;
+    border: 2px solid #070707;
+    border: none;
+    color: white;
+    padding: 30px 22px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Titan One', cursive;
+    border-radius: 35px;
+    cursor: pointer;
+    box-shadow:none;
+    align-items: center;    
+}
+#alterar{
+    margin: 50px -50px 100px; 
+    position:relative;
+    top:5px; 
+    left:50%; 
+}
+#alterar:hover{
+    transform: translateY(4px);
+    box-shadow: 0 5px #666; 
+}
+.incones{
+    height:20px; 
+    width:100px; 
+    margin: 0 -50px 100px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+    text-decoration: none;
+
+}
+
+section#frases {
+    display: flex;
+    flex-direction: column;
+    background-color: #eede05;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+
+}
+
+#frases{
+    text-align: center;
+    font-size: 20pt;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+
+}
+article {
+    margin-bottom: 800px;
+}
+
+img.img-dir {
+    display: block;
+    float: right;
+    margin-left: 5px;
+
+}
+section#infos div#img{
+    display: block;
+    justify-content: center;
+    
+}
+
+section#infos div#img img{
+    display: flex;
+    width: 60%;
+    border-radius: 3rem;
+    transform: scaleX(-1);
+    text-decoration: none;
+}
+
+section#frases{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-style: normal;
+    color: #0e0d0d;
+    font-size: 20pt;
+
+}
+
+section#frases figcaption{
+    border: 5px solid #070707;
+    border: none;
+    color: rgb(253, 249, 6);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 5rem;
+    font-weight: 400;
+    -webkit-text-stroke-width: 2px;
+    text-shadow: .2rem .2rem .2rem #0a0a0a80;
+
+}
+
+section#frases img{
+    display: flex;
+    text-decoration: none;
+    width: 1342px;
+    height: 1005px;
+    
+    
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px #606060 solid;
+    align-items: center;
+    justify-content: center;
+}
+footer#rodape p {
+    text-align: center;
+}
+
+.esconder {
+    display: none;
+}
+
+.imagem-center{
+    text-align: center;
+}
+
+#minion2{
+    width: 40%;
+}
+
